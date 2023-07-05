@@ -41,11 +41,11 @@ body{
     font-size: 15px;
 }
 .quote-area i:first-child{
-    display: flex;
-    align-items: flex-end;
     margin: 3px 10px 0 0;
 }
 .quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
     margin: 0 0 3px 10px;
 }
 .quote-area .quote{
@@ -87,7 +87,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid #454ecc;
+    border: 2px solid #5372f0;
     transform: all 0.4s ease;
 }
 .features ul li:hover{
@@ -95,11 +95,11 @@ body{
     background: #5372f0;
 }
 .features button{
-    border-radius: none;
+    border: none;
     outline: none;
     color: #fff;
     cursor: pointer;
-    font-style: 16px;
+    font-size: 16px;
     padding: 13px 22px;
     border-radius: 30px;
     background: #5372f0;
